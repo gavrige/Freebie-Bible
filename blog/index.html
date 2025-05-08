@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Freebie Bible Blog - Financial Tips, Side Hustles & New Opportunities</title>
+    <meta name="description" content="Stay updated with the latest financial insights, side hustle strategies, new bonus offers, and money-making opportunities from The Freebie Bible.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Re-apply minimal necessary CSS for dropdowns if not already inherited or if this page is tested standalone */
+        .dropdown:hover .dropdown-menu { display: block; }
+        .dropdown-menu { display: none; position: absolute; z-index: 1000; }
+        #mobile-menu { display: none; } /* Initial state for mobile menu */
+        @media (max-width: 768px) { #desktop-nav { display: none; } }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <a href="../index.html" class="text-2xl font-bold text-blue-600">The Freebie Bible</a>
+                </div>
+                <nav id="desktop-nav" class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="../index.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <div class="relative dropdown">
+                            <button class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium inline-flex items-center">
+                                Financial Offers <i class="fas fa-chevron-down fa-xs ml-1"></i>
+                            </button>
+                            <div class="dropdown-menu bg-white shadow-lg rounded-md mt-1 py-1 w-48">
+                                <a href="../banks.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Bank Bonuses</a>
+                                <a href="../credit-cards.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Credit Card Rewards</a>
+                                <a href="../brokerages.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Brokerage Bonuses</a>
+                            </div>
+                        </div>
+                        <div class="relative dropdown">
+                            <button class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium inline-flex items-center">
+                                Gambling <i class="fas fa-chevron-down fa-xs ml-1"></i>
+                            </button>
+                            <div class="dropdown-menu bg-white shadow-lg rounded-md mt-1 py-1 w-48">
+                                <a href="../online-casinos.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Online Casinos</a>
+                                <a href="../sports-betting.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Sports Betting</a>
+                            </div>
+                        </div>
+                        <div class="relative dropdown">
+                            <button class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium inline-flex items-center">
+                                Other Side Hustles <i class="fas fa-chevron-down fa-xs ml-1"></i>
+                            </button>
+                            <div class="dropdown-menu bg-white shadow-lg rounded-md mt-1 py-1 w-56">
+                                <a href="../gpt-sites.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Get-Paid-To Sites</a>
+                                <a href="../focus-groups.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Focus Groups</a>
+                                <a href="../surveys.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Surveys</a>
+                                <a href="flipping-items-guide.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Flipping Items (Guide)</a>
+                            </div>
+                        </div>
+                        <a href="index.html" class="bg-gray-200 text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+                        <a href="../about.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">About</a>
+                    </div>
+                </nav>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+                        <span class="sr-only">Open main menu</span><i class="fas fa-bars fa-lg"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="../index.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                <div>
+                    <button class="w-full text-left text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium" onclick="this.nextElementSibling.classList.toggle('hidden')">Financial Offers <i class="fas fa-chevron-down fa-xs ml-1"></i></button>
+                    <div class="pl-4 hidden">
+                        <a href="../banks.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Bank Bonuses</a>
+                        <a href="../credit-cards.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Credit Card Rewards</a>
+                        <a href="../brokerages.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Brokerage Bonuses</a>
+                    </div>
+                </div>
+                <div>
+                    <button class="w-full text-left text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium" onclick="this.nextElementSibling.classList.toggle('hidden')">Gambling <i class="fas fa-chevron-down fa-xs ml-1"></i></button>
+                    <div class="pl-4 hidden">
+                        <a href="../online-casinos.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Online Casinos</a>
+                        <a href="../sports-betting.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Sports Betting</a>
+                    </div>
+                </div>
+                <div>
+                    <button class="w-full text-left text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium" onclick="this.nextElementSibling.classList.toggle('hidden')">Other Side Hustles <i class="fas fa-chevron-down fa-xs ml-1"></i></button>
+                    <div class="pl-4 hidden">
+                        <a href="../gpt-sites.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Get-Paid-To Sites</a>
+                        <a href="../focus-groups.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Focus Groups</a>
+                        <a href="../surveys.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Surveys</a>
+                        <a href="flipping-items-guide.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Flipping Items (Guide)</a>
+                    </div>
+                </div>
+                <a href="index.html" class="text-gray-700 bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Blog</a>
+                <a href="../about.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">About</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg">
+            <h1 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-10">The Freebie Bible Blog</h1>
+            
+            <!-- Optional: Categories/Tags for filtering - Placeholder for Phase 2 -->
+            <!-- 
+            <div class="mb-8 text-center">
+                <span class="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-semibold mr-2 mb-2">Bank Bonuses</span>
+                <span class="inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-semibold mr-2 mb-2">Side Hustles</span>
+                <span class="inline-block bg-red-100 text-red-700 px-3 py-1 rounded-full text-sm font-semibold mr-2 mb-2">Casino</span>
+            </div>
+            -->
+
+            <!-- Grid or list of blog posts -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Sample Post Card 1 -->
+                <article class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                    <h2 class="text-xl font-semibold mb-2 text-blue-700"><a href="sample-post.html" class="hover:underline">An Introduction to Bank Bonus Churning</a></h2>
+                    <p class="text-gray-600 text-sm mb-1">Published: May 10, 2024 by The Freebie Bible</p>
+                    <p class="text-gray-700 flex-grow mb-4">Learn the basics of how to earn extra cash by strategically opening new bank accounts to receive signup bonuses. We cover the essentials to get you started...</p>
+                    <a href="sample-post.html" class="text-blue-600 hover:text-blue-800 font-medium self-start">Read More →</a>
+                </article>
+
+                <!-- Sample Post Card 2 (Placeholder for Casino Guide) -->
+                 <article class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                    <h2 class="text-xl font-semibold mb-2 text-red-700"><a href="casino-bonus-guide.html" class="hover:underline">The Ultimate Casino Bonus Guide (Coming Soon!)</a></h2>
+                    <p class="text-gray-600 text-sm mb-1">To be Published by The Freebie Bible</p>
+                    <p class="text-gray-700 flex-grow mb-4">A sneak peek into our upcoming comprehensive guide on understanding and maximizing online casino bonuses. Learn about Expected Value, playthrough, and more...</p>
+                    <a href="casino-bonus-guide.html" class="text-red-600 hover:text-red-800 font-medium self-start">Learn More →</a>
+                </article>
+
+                <!-- Sample Post Card 3 (Placeholder for Flipping Guide) -->
+                <article class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                    <h2 class="text-xl font-semibold mb-2 text-yellow-700"><a href="flipping-items-guide.html" class="hover:underline">Flipping Amazon Items: A Beginner's Guide (Coming Soon!)</a></h2>
+                     <p class="text-gray-600 text-sm mb-1">To be Published by The Freebie Bible</p>
+                    <p class="text-gray-700 flex-grow mb-4">Interested in buying items to resell for a profit? Our upcoming guide will cover general strategies for finding deals and successfully flipping items, including from Amazon.</p>
+                    <a href="flipping-items-guide.html" class="text-yellow-600 hover:text-yellow-800 font-medium self-start">Learn More →</a>
+                </article>
+                
+                <!-- Add more placeholder post cards for Phase 2 population -->
+                 <article class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                    <h2 class="text-xl font-semibold mb-2 text-purple-700"><a href="sample-post.html" class="hover:underline">Maximizing Earnings on Get-Paid-To Sites</a></h2>
+                     <p class="text-gray-600 text-sm mb-1">Published: May 09, 2024 by The Freebie Bible</p>
+                    <p class="text-gray-700 flex-grow mb-4">GPT sites offer more than just surveys. Discover strategies to focus on high-value offers and boost your income significantly.</p>
+                    <a href="sample-post.html" class="text-purple-600 hover:text-purple-800 font-medium self-start">Read More →</a>
+                </article>
+
+                 <article class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                    <h2 class="text-xl font-semibold mb-2 text-green-700"><a href="sample-post.html" class="hover:underline">Monthly Recap: Best Bank Bonuses - April 2024</a></h2>
+                     <p class="text-gray-600 text-sm mb-1">Published: May 01, 2024 by The Freebie Bible</p>
+                    <p class="text-gray-700 flex-grow mb-4">A look back at the top bank bonus offers from last month and a preview of what to expect. (This will be a recurring series).</p>
+                    <a href="sample-post.html" class="text-green-600 hover:text-green-800 font-medium self-start">Read More →</a>
+                </article>
+            </div>
+            <!-- Pagination Placeholder for Phase 2 -->
+            <!-- 
+            <div class="mt-12 flex justify-center">
+                <a href="#" class="px-4 py-2 mx-1 text-gray-700 bg-white rounded-md hover:bg-blue-500 hover:text-white">Previous</a>
+                <a href="#" class="px-4 py-2 mx-1 text-gray-700 bg-white rounded-md hover:bg-blue-500 hover:text-white">1</a>
+                <a href="#" class="px-4 py-2 mx-1 text-white bg-blue-500 rounded-md">2</a>
+                <a href="#" class="px-4 py-2 mx-1 text-gray-700 bg-white rounded-md hover:bg-blue-500 hover:text-white">3</a>
+                <a href="#" class="px-4 py-2 mx-1 text-gray-700 bg-white rounded-md hover:bg-blue-500 hover:text-white">Next</a>
+            </div>
+             -->
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="mb-2">© <span id="currentYear"></span> The Freebie Bible. All rights reserved.</p>
+            <div class="mb-2">
+                <a href="../disclaimer.html" class="hover:text-gray-300 px-2">Disclaimer</a>|
+                <a href="../privacy.html" class="hover:text-gray-300 px-2">Privacy Policy</a>|
+                <a href="mailto:contact@thefreebiebible.com" class="hover:text-gray-300 px-2">Contact</a>
+            </div>
+            <p class="text-sm text-gray-400">The Freebie Bible provides tips and referrals for financial opportunities. We may earn a commission through links on this site at no extra cost to you.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', () => {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.style.display = mobileMenu.style.display === 'block' ? 'none' : 'block';
+        });
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
