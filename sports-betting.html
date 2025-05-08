@@ -1,0 +1,154 @@
+<!-- Header -->
+<header class="bg-white shadow-md">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <div class="flex-shrink-0">
+                <a href="index.html" class="text-2xl font-bold text-blue-600">The Freebie Bible</a>
+            </div>
+            <nav id="desktop-nav" class="hidden md:block">
+                <div class="ml-10 flex items-baseline space-x-4">
+                    <a href="index.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                    <div class="relative dropdown">
+                        <button class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium inline-flex items-center">
+                            Financial Offers <i class="fas fa-chevron-down fa-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-menu bg-white shadow-lg rounded-md mt-1 py-1 w-48">
+                            <a href="banks.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Bank Bonuses</a>
+                            <a href="credit-cards.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Credit Card Rewards</a>
+                            <a href="brokerages.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Brokerage Bonuses</a>
+                        </div>
+                    </div>
+                    <div class="relative dropdown">
+                        <button class="bg-gray-200 text-gray-900 px-3 py-2 rounded-md text-sm font-medium inline-flex items-center">
+                            Gambling <i class="fas fa-chevron-down fa-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-menu bg-white shadow-lg rounded-md mt-1 py-1 w-48">
+                            <a href="online-casinos.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Online Casinos</a>
+                            <a href="sports-betting.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 bg-gray-100">Sports Betting</a>
+                        </div>
+                    </div>
+                    <div class="relative dropdown">
+                        <button class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium inline-flex items-center">
+                            Other Side Hustles <i class="fas fa-chevron-down fa-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-menu bg-white shadow-lg rounded-md mt-1 py-1 w-56">
+                            <a href="gpt-sites.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Get-Paid-To Sites</a>
+                            <a href="focus-groups.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Focus Groups</a>
+                            <a href="surveys.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Surveys</a>
+                            <a href="blog/flipping-items-guide.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Flipping Items (Guide)</a>
+                        </div>
+                    </div>
+                    <a href="blog/index.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+                    <a href="about.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">About</a>
+                </div>
+            </nav>
+            <div class="md:hidden flex items-center">
+                <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+                    <span class="sr-only">Open main menu</span><i class="fas fa-bars fa-lg"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="mobile-menu" class="md:hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <a href="index.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Home</a>
+            <div>
+                <button class="w-full text-left text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium" onclick="this.nextElementSibling.classList.toggle('hidden')">Financial Offers <i class="fas fa-chevron-down fa-xs ml-1"></i></button>
+                <div class="pl-4 hidden">
+                    <a href="banks.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Bank Bonuses</a>
+                    <a href="credit-cards.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Credit Card Rewards</a>
+                    <a href="brokerages.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Brokerage Bonuses</a>
+                </div>
+            </div>
+            <div>
+                <button class="w-full text-left text-gray-700 bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium" onclick="this.nextElementSibling.classList.toggle('hidden')">Gambling <i class="fas fa-chevron-down fa-xs ml-1"></i></button>
+                <div class="pl-4"> <!-- Default open for current section -->
+                    <a href="online-casinos.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Online Casinos</a>
+                    <a href="sports-betting.html" class="text-gray-700 bg-gray-100 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Sports Betting</a>
+                </div>
+            </div>
+             <div>
+                <button class="w-full text-left text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium" onclick="this.nextElementSibling.classList.toggle('hidden')">Other Side Hustles <i class="fas fa-chevron-down fa-xs ml-1"></i></button>
+                <div class="pl-4 hidden">
+                    <a href="gpt-sites.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Get-Paid-To Sites</a>
+                    <a href="focus-groups.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Focus Groups</a>
+                    <a href="surveys.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Surveys</a>
+                    <a href="blog/flipping-items-guide.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Flipping Items (Guide)</a>
+                </div>
+            </div>
+            <a href="blog/index.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">Blog</a>
+            <a href="about.html" class="text-gray-700 hover:bg-gray-200 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">About</a>
+        </div>
+    </div>
+</header>
+
+<main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg">
+        <h1 class="text-3xl md:text-4xl font-bold text-red-700 mb-4">Sports Betting Bonuses & Profitable Strategies</h1>
+         <div class="mb-6 p-4 bg-red-100 border-l-4 border-red-500 text-red-700">
+            <h3 class="font-bold"><i class="fas fa-exclamation-triangle mr-2"></i>Play Responsibly</h3>
+            <p>Sports betting should be fun. Never bet more than you can afford to lose. If you need help with problem gambling, contact the <a href="https://www.ncpgambling.org/help-treatment/national-helpline-1-800-522-4700/" target="_blank" rel="noopener noreferrer" class="underline hover:text-red-800">National Council on Problem Gambling</a> at 1-800-522-4700 or visit a local support organization.</p>
+        </div>
+
+        <p class="text-gray-700 mb-6 text-lg">
+            Sports betting sites frequently offer promotions like free bets and deposit matches to attract new users. With the right strategies, these can be leveraged for profit.
+        </p>
+
+        <div class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-3">Key Strategies (Brief Overview)</h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li><strong>Matched Betting:</strong> Using free bets from one bookmaker and laying against the same outcome on a betting exchange to lock in profit. (Requires access to exchanges, may be complex for beginners).</li>
+                <li><strong>Arbitrage Betting:</strong> Finding discrepancies in odds across different bookmakers to guarantee a profit regardless of the outcome. Requires speed and capital.</li>
+                <li><strong>Leveraging GPT Site Offers:</strong> Some Get-Paid-To sites (see our <a href="gpt-sites.html" class="text-blue-600 hover:underline">GPT Sites page</a>) offer rewards for signing up and depositing/betting on sportsbook apps. This can reduce or negate the risk of the initial bets.</li>
+                <li><strong>Bonus Bet Conversion:</strong> Turning bonus bets (which don't return the stake) into cash by finding bets close to even odds or using specific conversion techniques.</li>
+            </ul>
+            <p class="text-gray-700 mt-2">More detailed guides on these strategies will be available in Phase 2.</p>
+        </div>
+        
+
+        <!-- Sample Sportsbook Offers List -->
+        <div class="mb-10">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Sample Sports Betting Offers (Phase 1 - Placeholders)</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Sample Offer 1 -->
+                <div class="border p-4 rounded-lg bg-gray-50 shadow">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">ESPN BET (Sample)</h3>
+                    <p class="text-gray-600"><strong class="font-medium">Offer:</strong> Bet $10, Get $100 in Bonus Bets with promo code. [24]</p>
+                    <p class="text-gray-600"><strong class="font-medium">Key Terms:</strong> New users only. Bonus bets usually have a 1x playthrough. Minimum odds may apply to qualifying bet. (Example terms)</p>
+                    <a href="#" class="text-blue-600 hover:text-blue-800 mt-2 inline-block">Visit Site*</a>
+                </div>
+                <!-- Sample Offer 2 -->
+                <div class="border p-4 rounded-lg bg-gray-50 shadow">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">FanDuel Sportsbook (Sample)</h3>
+                    <p class="text-gray-600"><strong class="font-medium">Offer:</strong> Bet $5, Get $150 in Bonus Bets IF YOUR BET WINS. (Offers vary, sometimes it's guaranteed bonus bets) [25]</p>
+                    <p class="text-gray-600"><strong class="font-medium">Key Terms:</strong> New users. Winning qualifying bet required for this specific offer type. Bonus bets non-withdrawable. (Example terms)</p>
+                    <a href="#" class="text-blue-600 hover:text-blue-800 mt-2 inline-block">Visit Site*</a>
+                </div>
+            </div>
+            <p class="text-xs text-gray-600 mt-2">* Links are referral links where available and will be populated in Phase 2. Always check terms on the sportsbook's site.</p>
+        </div>
+         <p class="text-gray-700 mb-6">
+            For current bonus information, reputable sources like Oddschecker or Action Network can be very helpful (Phase 2 will include direct links to top offers found on such platforms).
+        </p>
+    </div>
+</main>
+
+<footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <p class="mb-2">© <span id="currentYear"></span> The Freebie Bible. All rights reserved.</p>
+        <div class="mb-2">
+            <a href="disclaimer.html" class="hover:text-gray-300 px-2">Disclaimer</a>|
+            <a href="privacy.html" class="hover:text-gray-300 px-2">Privacy Policy</a>|
+            <a href="mailto:contact@thefreebiebible.com" class="hover:text-gray-300 px-2">Contact</a>
+        </div>
+        <p class="text-sm text-gray-400">The Freebie Bible provides tips and referrals for financial opportunities. We may earn a commission through links on this site at no extra cost to you. Gamble Responsibly.</p>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('mobile-menu-button').addEventListener('click', () => {
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.style.display = mobileMenu.style.display === 'block' ? 'none' : 'block';
+    });
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
